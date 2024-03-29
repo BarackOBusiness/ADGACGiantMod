@@ -9,7 +9,7 @@ namespace Giant;
 
 [BepInPlugin("ADGACExt.BarackOBusiness.Giantmod", "Giant Mod", "1.0.0")]
 [BepInProcess("A Difficult Game About Climbing.exe")]
-public class Plugin : BaseUnityPlugin
+public class Main : BaseUnityPlugin
 {
 	// Wanted to make this configurable, but the other values need so much fine tuning
 	// there's not a good way to find out algorithmically what they should be, so this is a constant instead
